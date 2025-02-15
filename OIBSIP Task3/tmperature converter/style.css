@@ -1,0 +1,68 @@
+body {
+  margin-top: 60px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #fbeeee;
+}
+
+h1 {
+  padding-bottom: 30px;
+  font-size: 36px;
+  color: #333;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  padding: 12px;
+  font-size: 36px;
+  width: 250px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="number"]:focus {
+  border-color: #4CAF50;
+}
+
+#input-celsius,
+#input-fahrenheit,
+#input-kelvin {
+  background-color: #95c7c0;
+  color: #333;
+}
+
+#input-celsius:focus,
+#input-fahrenheit:focus,
+#input-kelvin:focus {
+  background-color: #d3f1f1;
+}
+
+.form-padding {
+  padding: 50px 40px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+::placeholder {
+  color: #777;
+  font-style: italic;
+}
+
+footer {
+  padding-top: 30px;
+  font-size: 12px;
+  color: #555;
+  line-height: 1.8;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.icons {
+  max-width: 30px;
+  height: auto;
+}
